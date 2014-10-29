@@ -1,0 +1,11 @@
+
+
+Hello Remote Blink!<br>
+
+<%= form_tag(url_for(:action => 'led_on')) do %>
+<input type="submit" value="LED ON">
+<% end %>
+<%= form_tag(url_for(:action => 'led_off')) do %>
+<input type="submit" value="LED OFF">
+<% end %>
+

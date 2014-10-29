@@ -1,4 +1,11 @@
 RaspiRemoteBlink::Application.routes.draw do
+
+  root 'blinks#index'
+
+  post 'blinks/led_on'
+
+  post 'blinks/led_off'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
