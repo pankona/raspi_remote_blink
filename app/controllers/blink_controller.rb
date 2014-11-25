@@ -1,2 +1,0 @@
-class BlinkController < ApplicationController
-end
